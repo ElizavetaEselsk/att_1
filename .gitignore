@@ -1,0 +1,5 @@
+# Project exclude paths
+/deserialize/target/
+/generator/target/
+/model/target/
+/serialize/target/
