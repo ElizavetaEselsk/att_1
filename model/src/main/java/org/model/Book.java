@@ -2,15 +2,7 @@ package org.model;
 
 import java.util.List;
 import java.util.UUID;
-//@JsonInclude(JsonInclude.Include.NON_NULL)
-//@JsonPropertyOrder({
-//        "book_id",
-//        "name",
-//        "author",
-//        "interpreters",
-//        "publisher",
-//        "readers"
-//})
+
 public class Book {
 //    @JsonProperty("book_id")
     private UUID bookId;

@@ -15,9 +15,6 @@ public class Generator {
         Random rd = new Random();
         List<Book> books = new ArrayList<Book>();
 
-//        List<Book> books = Stream.iterate(0, i -> i).limit(10)
-//                .map(o -> new Book(UUID.randomUUID(), "Name_" + rd.nextInt(),
-//                        new Author(uuidF, uuidS, "Name_" + rd.nextInt(),  20, Language.ENGLISH )).collect(Collectors.toList());
 
         for (int i = 0; i < countObject; i++) {
 
